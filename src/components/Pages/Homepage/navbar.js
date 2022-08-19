@@ -86,7 +86,7 @@ const Navbar = () => {
   <FontAwesomeIcon icon={faTimes}></FontAwesomeIcon>
   </span>
   <motion.ul
-
+        animate={{scale:1, color:"black"}}
   className={""}>
         <li>About</li>
         <li>Stories</li>
