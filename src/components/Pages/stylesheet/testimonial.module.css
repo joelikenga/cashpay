@@ -5,11 +5,13 @@
 }
 .round{
     border: 4px solid #093E9EFF;
-    border-radius: 4em;
+    border-radius: 100px;
     height: 100%;
 
 }
 .round img{
+    margin: 4px;
+    margin-bottom: 0px;
    width: 120px;
    height: 120px;
 }
@@ -155,7 +157,7 @@
      }
 
      .round{
-        border: 2px solid #093E9EFF;
+        border: 5px solid #093E9EFF;
     
     }
 
