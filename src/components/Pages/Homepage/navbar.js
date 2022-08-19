@@ -89,16 +89,20 @@ const Navbar = () => {
         animate={{scale:1, color:"black"}}
   className={""}>
         <motion.li
-        animate={{scale:1, color:"black"}}
+        onTap={{scale:1, color:"black"}}
+
         >About</motion.li>
         <motion.li
-        animate={{scale:1, color:"black"}}
+        onTap={{scale:1, color:"black"}}
+
         >Stories</motion.li>
         <motion.li
-        animate={{scale:1, color:"black"}}
+        onTap={{scale:1, color:"black"}}
+
         >Careers</motion.li>
         <motion.li
-        animate={{scale:1, color:"black"}}
+        onTap={{scale:1, color:"black"}}
+
         >Help</motion.li>
   </motion.ul>
 </div>
