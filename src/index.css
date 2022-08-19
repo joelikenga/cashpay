@@ -8,7 +8,6 @@ body {
 .small-nav{
   height: 100vh;
   width: 100vw;
-  right: 0;
   background-color: rgba(0, 0, 0, 0.932);
   position: fixed;
   z-index: 1;
@@ -29,7 +28,7 @@ body {
 }
 
 .times{
-  color: white;
+  color: black;
   font-size: 30px;
   position: absolute;
   right: 0;
