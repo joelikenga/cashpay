@@ -88,10 +88,18 @@ const Navbar = () => {
   <motion.ul
         animate={{scale:1, color:"black"}}
   className={""}>
-        <li>About</li>
-        <li>Stories</li>
-        <li >Careers</li>
-        <li>Help</li>
+        <motion.li
+        animate={{scale:1, color:"black"}}
+        >About</motion.li>
+        <motion.li
+        animate={{scale:1, color:"black"}}
+        >Stories</motion.li>
+        <motion.li
+        animate={{scale:1, color:"black"}}
+        >Careers</motion.li>
+        <motion.li
+        animate={{scale:1, color:"black"}}
+        >Help</motion.li>
   </motion.ul>
 </div>
  
