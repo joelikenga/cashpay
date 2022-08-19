@@ -1,5 +1,5 @@
 import navStyle from "../stylesheet/navbar.module.css";
-import {motion} from "framer-motion";
+import {motion, useSpring} from "framer-motion";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faTimes} from "@fortawesome/free-solid-svg-icons";
 import { useState } from "react";
@@ -19,6 +19,23 @@ const Navbar = () => {
                     }
         },
 
+    }
+
+    const smallNavVariants = {
+        start:{
+            opacity:0,
+            y:200
+        },
+        stop:{
+            opacity:1,
+            y:0,
+                    transition:{
+                        type:"spring",
+                        stiffness:100,
+                        duration:1.5,
+                        
+                    }
+        }
     }
   return(
       <nav>
@@ -80,13 +97,18 @@ const Navbar = () => {
                 ><FontAwesomeIcon icon={faBars}></FontAwesomeIcon></motion.span>
             </ul>
 
-            <div style={{display: toogleNav ? " inline" : "none"}} className="small-nav">
+            <motion.div style={{display: toogleNav ? " inline" : "none"}} className="small-nav"
+                 variants={smallNavVariants}
+                 initial="start"
+                 whileInView="stop"
+                 viewport={{once:false}}
+                 >
 
 <span className="times" onClick={show}>
   <FontAwesomeIcon icon={faTimes}></FontAwesomeIcon>
   </span>
   <motion.ul
-        animate={{scale:1, color:"black"}}
+   
   className={""}>
         <motion.li
         onTap={{scale:1, color:"black"}}
@@ -105,7 +127,7 @@ const Navbar = () => {
 
         >Help</motion.li>
   </motion.ul>
-</div>
+</motion.div>
  
       </nav>
       
