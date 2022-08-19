@@ -1,0 +1,46 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 5%;
+    margin-bottom: 1%;
+}
+
+.cover{
+    min-width: 25%;
+}
+.cover p{
+    font-weight: 600;
+    margin-bottom:2em;
+    text-align: center;
+}
+.cover li{
+    text-align: center;
+
+    font-weight: 400;
+    list-style: none;
+    font-size: 14px;
+    margin-bottom: 1em;
+}
+
+/* small screen */
+
+@media (max-width: 700px) {
+        .cover p{
+            font-size: 12px;
+        }
+
+        .cover li {
+            font-size: 12px;
+        }
+}
+
+@media (max-width: 570px) {
+    .cover p{
+        font-size: 10px;
+        
+    }
+
+    .cover li {
+        font-size: 9px;
+    }
+}

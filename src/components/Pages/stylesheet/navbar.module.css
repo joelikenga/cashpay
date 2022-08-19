@@ -1,0 +1,43 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    line-height: 25px;
+    margin: 0 ;
+    padding: 0px 30px;
+}
+
+.logo svg{
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+
+.navLinks{
+    list-style: none;
+}
+.navLinks li{
+    display: inline;
+    margin:0 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.navLinks span{
+    font-size: 20px;
+    font-weight: 900;
+    display: none;
+}
+
+
+
+/* small screens */
+
+@media  (max-width: 700px ){
+.navLinks li{
+    display: none;
+}
+
+.navLinks span{
+    display: inline;
+}
+}
