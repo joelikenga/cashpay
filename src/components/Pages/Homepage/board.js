@@ -15,7 +15,7 @@ const Board = () => {
                     opacity:1,
                      x:2,
                             transition:{
-                                delay:0.5, 
+                                // delay:0.5, 
                                 duration:1.5,
                                 type: 'spring',
                                 stiffness:150
@@ -30,7 +30,7 @@ const Board = () => {
             stop:{
                 opacity:1,
                             transition:{
-                                delay:1,
+                                // delay:1,
                                 duration:0.5 
                             }
             }
@@ -43,7 +43,7 @@ const Board = () => {
             stop:{
                 opacity:1,
                             transition:{
-                                delay:1,
+                                // delay:1,
                                 duration:0,
                                 type: 'spring',
                                 stiffness:100
