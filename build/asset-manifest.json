@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/cashpay/static/css/main.fcb1593d.css",
+    "main.js": "/cashpay/static/js/main.ca3c6456.js",
+    "static/js/787.0c576534.chunk.js": "/cashpay/static/js/787.0c576534.chunk.js",
+    "static/media/board-male img.png": "/cashpay/static/media/board-male img.e25af4e19bfb43fa171c.png",
+    "static/media/mapbase.png": "/cashpay/static/media/mapbase.569132dd6f4ec4ecbbfa.png",
+    "static/media/test2.png": "/cashpay/static/media/test2.e55fcaa7730c04fb4b48.png",
+    "static/media/test5.png": "/cashpay/static/media/test5.367c45dacde7672d87ed.png",
+    "static/media/test3.png": "/cashpay/static/media/test3.5f01479f719f53275157.png",
+    "static/media/test4.png": "/cashpay/static/media/test4.eb8905517c6dec04d3c7.png",
+    "static/media/test1.png": "/cashpay/static/media/test1.1f52879e68074bbf8174.png",
+    "index.html": "/cashpay/index.html",
+    "main.fcb1593d.css.map": "/cashpay/static/css/main.fcb1593d.css.map",
+    "main.ca3c6456.js.map": "/cashpay/static/js/main.ca3c6456.js.map",
+    "787.0c576534.chunk.js.map": "/cashpay/static/js/787.0c576534.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fcb1593d.css",
+    "static/js/main.ca3c6456.js"
+  ]
+}
