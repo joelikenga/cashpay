@@ -12,6 +12,7 @@ body {
   background-color: rgba(0, 0, 0, 0.932);
   position: fixed;
   z-index: 1;
+  background-color: white;
 }
 
 .small-nav ul{
@@ -24,7 +25,7 @@ body {
 .small-nav li{
   margin: 4% 0;
   font-weight: 600;
-  color: rgb(206, 201, 201);
+  color: #093E9E;
 }
 
 .times{
