@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/cashpay/static/css/main.04a4aebd.css",
-    "main.js": "/cashpay/static/js/main.b095b43a.js",
+    "main.js": "/cashpay/static/js/main.d30b3ecc.js",
     "static/js/787.0c576534.chunk.js": "/cashpay/static/js/787.0c576534.chunk.js",
     "static/media/board-male img.png": "/cashpay/static/media/board-male img.e25af4e19bfb43fa171c.png",
     "static/media/mapbase.png": "/cashpay/static/media/mapbase.569132dd6f4ec4ecbbfa.png",
@@ -12,11 +12,11 @@
     "static/media/test1.png": "/cashpay/static/media/test1.1f52879e68074bbf8174.png",
     "index.html": "/cashpay/index.html",
     "main.04a4aebd.css.map": "/cashpay/static/css/main.04a4aebd.css.map",
-    "main.b095b43a.js.map": "/cashpay/static/js/main.b095b43a.js.map",
+    "main.d30b3ecc.js.map": "/cashpay/static/js/main.d30b3ecc.js.map",
     "787.0c576534.chunk.js.map": "/cashpay/static/js/787.0c576534.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.04a4aebd.css",
-    "static/js/main.b095b43a.js"
+    "static/js/main.d30b3ecc.js"
   ]
 }
