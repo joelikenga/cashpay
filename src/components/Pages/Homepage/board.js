@@ -16,7 +16,7 @@ const Board = () => {
                      x:2,
                             transition:{
                                 // delay:0.5, 
-                                duration:1.5,
+                                // duration:1.5,
                                 type: 'spring',
                                 stiffness:150
                             }
@@ -44,7 +44,7 @@ const Board = () => {
                 opacity:1,
                             transition:{
                                 // delay:1,
-                                duration:0,
+                                // duration:0,
                                 type: 'spring',
                                 stiffness:100
                             },
@@ -86,9 +86,9 @@ const Board = () => {
 
                     {/* mobile download link */}
                     < motion.div  className={boardStyle.apps}
-                                                  initial = {{y:200, opacity: 0, }}
-                                                  animate={{y:0, opacity:1}}
-                                                  transition={{delay:1, duration:1.5, type: 'spring', stiffness:100}}
+                                                  initial = {{x:200, opacity: 0, }}
+                                                  animate={{x:0, opacity:1}}
+                                                  transition={{ duration:0.5, type: 'spring', stiffness:100}}
                     >
                     {/* apple ios */}
                         <motion.svg 

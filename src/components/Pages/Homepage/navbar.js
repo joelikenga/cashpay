@@ -32,11 +32,13 @@ const Navbar = () => {
                     transition:{
                         type:"spring",
                         stiffness:100,
-                        duration:1.5,
+                        duration:1,
                         
                     }
         }
     }
+
+
   return(
       <nav>
             <div className={navStyle.logo}>
@@ -111,19 +113,31 @@ const Navbar = () => {
    
   className={""}>
         <motion.li
-        onTap={{scale:1, color:"black"}}
+        initial={{x:-300,}}
+        whileInView={{x:0,}}
+        transition={{ delay:0.1,duration:0.5, type: "spring" , stiffness: 100}}
+        viewport={{once:false}}
 
         >About</motion.li>
         <motion.li
-        onTap={{scale:1, color:"black"}}
+       initial={{x:-300,}}
+       whileInView={{x:0,}}
+       transition={{ delay:0.2,duration:0.5, type: "spring" , stiffness: 100}}
+       viewport={{once:false}}
 
         >Stories</motion.li>
         <motion.li
-        onTap={{scale:1, color:"black"}}
+       initial={{x:-300,}}
+       whileInView={{x:0,}}
+       transition={{ delay:0.3,duration:0.5, type: "spring" , stiffness: 100}}
+       viewport={{once:false}}
 
         >Careers</motion.li>
         <motion.li
-        onTap={{scale:1, color:"black"}}
+        initial={{x:-300,}}
+        whileInView={{x:0,}}
+        transition={{ delay:0.4,duration:0.5, type: "spring" , stiffness: 100}}
+        viewport={{once:false}}
 
         >Help</motion.li>
   </motion.ul>

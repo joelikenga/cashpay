@@ -16,7 +16,7 @@ const Funds = () => {
                 x:0,
 
                     transition: {
-                        delay:1,
+                        delay:0.5,
                             duration:1.8,
                             type:'spring',
                             stiffness:100,
@@ -31,8 +31,8 @@ const Funds = () => {
         stop:{
             opacity:1,
                 transition:{
-                    delay:0.5,
-                    duration:1,
+                    delay:0.8,
+                    duration:0.5,
                 }
         }
     }
@@ -46,27 +46,13 @@ const Funds = () => {
             opacity:1,
             scale:1,
                 transition:{
+                    delay: 0.8,
                     type:"spring",
                     duration:1,
                 }
         }
     }
 
-    const videoVariants ={
-        start:{
-            opacity: 0,
-            scale:0.2
-        },
-        stop:{
-            opacity:1,
-            scale:1,
-                transition:{
-                    type:"spring",
-                    delay:1,
-                    duration:1.5,
-                }
-        }
-    }
 
 
    
