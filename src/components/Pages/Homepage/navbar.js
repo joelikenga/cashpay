@@ -113,28 +113,28 @@ const Navbar = () => {
    
   className={""}>
         <motion.li
-        initial={{x:-300,}}
+        initial={{x:100,}}
         whileInView={{x:0,}}
         transition={{ delay:0.1,duration:0.5, type: "spring" , stiffness: 100}}
         viewport={{once:false}}
 
         >About</motion.li>
         <motion.li
-       initial={{x:-300,}}
+       initial={{x:100,}}
        whileInView={{x:0,}}
        transition={{ delay:0.2,duration:0.5, type: "spring" , stiffness: 100}}
        viewport={{once:false}}
 
         >Stories</motion.li>
         <motion.li
-       initial={{x:-300,}}
+       initial={{x:100,}}
        whileInView={{x:0,}}
        transition={{ delay:0.3,duration:0.5, type: "spring" , stiffness: 100}}
        viewport={{once:false}}
 
         >Careers</motion.li>
         <motion.li
-        initial={{x:-300,}}
+        initial={{x:100,}}
         whileInView={{x:0,}}
         transition={{ delay:0.4,duration:0.5, type: "spring" , stiffness: 100}}
         viewport={{once:false}}
